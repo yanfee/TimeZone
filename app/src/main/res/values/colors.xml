@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="orange">#EF8200</color>
+    <color name="gray">#646464</color>
+    <color name="divide">#d6d6d6</color>
+    <color name="section_bg">#969696</color>
+    <color name="sounds_volume_background">#36393A</color>
+    <color name="transparency">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="time_cursor">#2388B5</color>
+    <color name="color_ffffff_20">#33FFFFFF</color>
+</resources>
