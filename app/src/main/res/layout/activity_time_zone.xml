@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/settings_bg"
+        tools:context=".TimeZoneActivity">
+
+        <com.example.myapplication.CommonTitleBar
+            android:id="@+id/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:backIcon="@drawable/but_back_nor_selector"
+            app:barBackgroundColor="@android:color/white"
+            app:rightIcon="@mipmap/ic_search"
+            app:title="@{@string/app_name}" />
+
+        <RelativeLayout
+            android:id="@+id/rl_timezone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/title_bar"
+            android:layout_marginStart="51dp"
+            android:layout_marginEnd="51dp"
+            android:background="@drawable/wifi_add_network_option_bg">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_timezone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <TextView
+                android:id="@+id/tv_touch_letter"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:background="#005555"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="A"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <declare-styleable name="SideIndexLetter">
+       <attr name="sideLetterTextSize" format="dimension"/>
+       <attr name="sideLetterNormalColor" format="color"/>
+       <attr name="sideLetterTouchedColor" format="color"/>
+   </declare-styleable>
+
+
+    <declare-styleable name="TitleBar">
+        <!--标题-->
+        <attr name="title" format="string" />
+        <!--右边文字-->
+        <attr name="rightText" format="string" />
+        <!--右边图片-->
+        <attr name="rightIcon" format="reference" />
+        <!--右边文字是否可见-->
+        <attr name="rightTextVisible" format="boolean" />
+        <!--右边图片是否可见-->
+        <attr name="rightIconVisible" format="boolean" />
+        <!--是否隐藏返回键-->
+        <attr name="backVisible" format="boolean" />
+        <!--左边图片-->
+        <attr name="backIcon" format="reference" />
+        <!--背景色-->
+        <attr name="barBackgroundColor" format="reference" />
+        <!-- text-->
+        <attr name="textcolor" format="color" />
+    </declare-styleable>
+</resources>
